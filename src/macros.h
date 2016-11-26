@@ -10,12 +10,12 @@
 //--------------------------------------------------
 // Macro to test for successful allocation of memory
 //--------------------------------------------------
-#define  MEMCHECK(x)  (((x) == NULL) ? 101 : 0 )
+#define  MEMCHECK(x)  (((x) == NULL) ? 101 : 0 ) 	//? what is the meaning of 101 or 0
 
 //--------------------------------------------------
 // Macro to free a non-null pointer
 //--------------------------------------------------
-#define  FREE(x) { if (x) { free(x); x = NULL; } }
+#define  FREE(x) { if (x) { free(x); x = NULL; } }	//? what is the behaviour of 'if(x)' on a pointer
 
 //---------------------------------------------------
 // Conversion macros to be used in place of functions
@@ -27,12 +27,12 @@
 #define LOG10(x) ((x) > 0.0 ? log10((x)) : (x))  /* safe log10 of x       */
 #define SQR(x)   ((x)*(x))                       /* x-squared             */
 #define SGN(x)   (((x)<0) ? (-1) : (1))          /* sign of x             */
-#define SIGN(x,y) ((y) >= 0.0 ? fabs(x) : -fabs(x))
+#define SIGN(x,y) ((y) >= 0.0 ? fabs(x) : -fabs(x))	//? what is the behaviour of fabs(x)
 #define UCHAR(x) (((x) >= 'a' && (x) <= 'z') ? ((x)&~32) : (x))
-                                                 /* uppercase char of x   */
+                                                 /* uppercase char of x   */ //? is '&~' a shift
 #define ARRAY_LENGTH(x) (sizeof(x)/sizeof(x[0])) /* length of array x     */
 
 //-------------------------------------------------
 // Macro to evaluate function x with error checking
 //-------------------------------------------------
-#define CALL(x) (ErrorCode = ((ErrorCode>0) ? (ErrorCode) : (x)))
+#define CALL(x) (ErrorCode = ((ErrorCode>0) ? (ErrorCode) : (x))) //if there is an error return it, otherwise return x

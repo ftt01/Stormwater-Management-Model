@@ -29,9 +29,9 @@
 //  Leave only one of the following 3 lines un-commented,
 //  depending on the choice of compilation target
 //**********************************************************
-//#define CLE     /* Compile as a command line executable */
+#define CLE     /* Compile as a command line executable */
 //#define SOL     /* Compile as a shared object library */
-#define DLL     /* Compile as a Windows DLL */
+//#define DLL     /* Compile as a Windows DLL */
 
 // --- define WINDOWS
 #undef WINDOWS
@@ -62,9 +62,9 @@
 #endif
 ////
 
-// --- include Windows direct.h header
+// --- include direct.h header to use it with DLL
 #ifdef DLL
-  #define <direct.h>
+  #include <direct.h>
 #endif
 
 #include <stdio.h>
@@ -885,4 +885,8 @@ int xfilter(int xc, DateTime elapsedTime, long step)
 #endif
 
 //=============================================================================
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> notes

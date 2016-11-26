@@ -62,7 +62,11 @@
 #endif
 ////
 
-//#include <direct.h>
+// --- include direct.h header to use it with DLL
+#ifdef DLL
+  #include <direct.h>
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -17,7 +17,7 @@
 #include "datetime.h"
 
 // Macro to convert charcter x to upper case
-#define UCHAR(x) (((x) >= 'a' && (x) <= 'z') ? ((x)&~32) : (x))
+#define UCHAR(x) (((x) >= 'a' && (x) <= 'z') ? ((x)&~32) : (x))		//! bitwise with x and ~32
 
 //-----------------------------------------------------------------------------
 //  Constants

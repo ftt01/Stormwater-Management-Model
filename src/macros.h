@@ -10,7 +10,7 @@
 //--------------------------------------------------
 // Macro to test for successful allocation of memory
 //--------------------------------------------------
-#define  MEMCHECK(x)  (((x) == NULL) ? 101 : 0 ) 	//? what is the meaning of 101 or 0
+#define  MEMCHECK(x)  (((x) == NULL) ? 101 : 0 ) 	//! return ERR101 if the allocation of the memory is wrong
 
 //--------------------------------------------------
 // Macro to free a non-null pointer

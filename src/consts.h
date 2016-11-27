@@ -69,24 +69,24 @@
 //---------------------------
 // Various conversion factors
 //---------------------------
-#define   GPMperCFS   448.831	//gallons per minute in a cubic feet per second
-#define   AFDperCFS   1.9837  	//acre-feet per day in a cubic feet per second
-#define   MGDperCFS   0.64632 	//million gallons per day in a cubic feet per second
-#define   IMGDperCFS  0.5382	//imperial gallons per day in a cubic feet per second
-#define   LPSperCFS   28.317	//liters per second in a cubic feet per second
-#define   LPMperCFS   1699.0	//liters per minute in a cubic feet per second
-#define   CMHperCFS   101.94	//cubic meters per hour in a cubic feet per second
-#define   CMDperCFS   2446.6	//cubic meters per day in a cubic feet per second
-#define   MLDperCFS   2.4466	//megaliters per day in a cubic feet per second
-#define   M3perFT3    0.028317	//cubic meters in a cubic feet
-#define   LperFT3     28.317	//liters in a cubic feet
-#define   MperFT      0.3048	//meters in a feet
-#define   PSIperFT    0.4333	//pound per square inch in a feet
-#define   KPAperPSI   6.895	//kilopascal in a pound per square inch
-#define   KWperHP     0.7457	//kilowatt in a horsepower
-#define   SECperDAY   86400	//seconds in a day
-#define   MSECperDAY  8.64e7	//milliseconds in a day
-#define   MMperINCH   25.40	//millimeters in an inch
+#define   GPMperCFS   448.831	//! gallons per minute in a cubic feet per second
+#define   AFDperCFS   1.9837  	//! acre-feet per day in a cubic feet per second
+#define   MGDperCFS   0.64632 	//! million gallons per day in a cubic feet per second
+#define   IMGDperCFS  0.5382	//! imperial gallons per day in a cubic feet per second
+#define   LPSperCFS   28.317	//! liters per second in a cubic feet per second
+#define   LPMperCFS   1699.0	//! liters per minute in a cubic feet per second
+#define   CMHperCFS   101.94	//! cubic meters per hour in a cubic feet per second
+#define   CMDperCFS   2446.6	//! cubic meters per day in a cubic feet per second
+#define   MLDperCFS   2.4466	//! megaliters per day in a cubic feet per second
+#define   M3perFT3    0.028317	//! cubic meters in a cubic feet
+#define   LperFT3     28.317	//! liters in a cubic feet
+#define   MperFT      0.3048	//! meters in a feet
+#define   PSIperFT    0.4333	//! pound per square inch in a feet
+#define   KPAperPSI   6.895	//! kilopascal in a pound per square inch
+#define   KWperHP     0.7457	//! kilowatt in a horsepower
+#define   SECperDAY   86400	//! seconds in a day
+#define   MSECperDAY  8.64e7	//! milliseconds in a day
+#define   MMperINCH   25.40	//! millimeters in an inch
 
 //---------------------------
 // Token separator characters

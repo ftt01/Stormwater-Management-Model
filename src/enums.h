@@ -40,7 +40,7 @@
       LINK,                            // conveyance system link
       POLLUT,                          // pollutant
       LANDUSE,                         // land use category
-      TIMEPATTERN,                     // dry weather flow time pattern
+      TIMEPATTERN,                     // dry weather flow time pattern 
       CURVE,                           // generic table of values
       TSERIES,                         // generic time series of values
       CONTROL,                         // conveyance system control rules
@@ -57,10 +57,10 @@
 //-------------------------------------
  #define MAX_NODE_TYPES 4
  enum NodeType {
-      JUNCTION,
-      OUTFALL,
-      STORAGE,
-      DIVIDER};
+      JUNCTION,				//! junction
+      OUTFALL,				//! discharge of the river
+      STORAGE,				//! storing place
+      DIVIDER};				//! divide the discharge
 
 //-------------------------------------
 // Names of Link sub-types
@@ -69,9 +69,9 @@
  enum LinkType {
       CONDUIT,
       PUMP,
-      ORIFICE,
-      WEIR,
-      OUTLET};
+      ORIFICE,				//! partial opening
+      WEIR,				//! small dam
+      OUTLET};				//! complete opening
 
 //-------------------------------------
 // File types
@@ -79,7 +79,7 @@
  enum FileType {
       RAINFALL_FILE,                   // rainfall file
       RUNOFF_FILE,                     // runoff file
-      HOTSTART_FILE,                   // hotstart file
+      HOTSTART_FILE,                   //? hotstart file
       RDII_FILE,                       // RDII file
       INFLOWS_FILE,                    // inflows interface file
       OUTFLOWS_FILE};                  // outflows interface file
@@ -145,7 +145,7 @@
       LPS,                             // liters per second
       MLD};                            // million liters per day
 
- enum ConcUnitsType {
+ enum ConcUnitsType {		       //! concentration units types	
       MG,                              // Milligrams / L
       UG,                              // Micrograms / L
       COUNT};                          // Counts / L
@@ -154,16 +154,16 @@
 // Quantities requiring unit conversions
 //--------------------------------------
  enum ConversionType {
-      RAINFALL,
+      RAINFALL,			       //? raindepth / time
       RAINDEPTH,
-      EVAPRATE,
+      EVAPRATE,			       //? evaporate
       LENGTH,
       LANDAREA,
       VOLUME,
       WINDSPEED,
       TEMPERATURE,
       MASS,
-      GWFLOW,
+      GWFLOW,			       //! groundwater flow
       FLOW};                           // Flow must always be listed last
 
 //-------------------------------------

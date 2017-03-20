@@ -885,8 +885,3 @@ int xfilter(int xc, DateTime elapsedTime, long step)
 #endif
 
 //=============================================================================
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> notes

@@ -14,11 +14,11 @@ RUN 	apt-get -y update \
 	&& git clone https://github.com/geoframecomponents/Stormwater-Management-Model.git \
 	&& cd Stormwater-Management-Model/src/ \
 	&& make \
-	&& cp ./swmm5 /
+	&& cp ./swmm5 / \
 # launch the engine of swmm5	
-ENTRYPOINT ["/bin/bash", "-c", "./swmm5 data/$0.inp data/$0.rpt data/$0.out"]
+#ENTRYPOINT ["/bin/bash", "-c", "./swmm5 data/$0.inp data/$0.rpt data/$0.out"]
 # purge not needed stuff
-RUN	apt-get -y remove --purge \
+	&& apt-get -y remove --purge \
 	ca-certificates \
 	make \
 	cmake \
@@ -27,4 +27,9 @@ RUN	apt-get -y remove --purge \
 	git \
 	&& apt-get -y autoremove --purge \
 	&& cd / \
-	&& rm -r Stormwater-Management-Model
+	&& rm -r Stormwater-Management-Model \
+	&& apt-get install --no-install-recommends -y python3
+COPY	./outputRead.py /data
+# launch the engine of swmm5	
+ENTRYPOINT ["/bin/bash", "-c", "./swmm5 data/$0.inp data/$0.rpt data/$0.out"]
+CMD	["python3", "data/outputRead.py", "data/$0.out"]

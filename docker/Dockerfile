@@ -31,6 +31,6 @@ RUN 	apt-get -y update \
 	&& rm -r Stormwater-Management-Model \
 	&& apt-get install --no-install-recommends -y python3
 # launch the engine of swmm5	
-ENTRYPOINT ["/bin/bash", "-c", "./swmm5 data/$0.inp data/$0.rpt data/$0.out && cp outputRead.py ./data && cd data && python3 outputRead.py $0.out $0"]
+ENTRYPOINT ["/bin/bash", "-c", "./swmm5 data/$0.inp data/$0.rpt data/$0.out && cp outputRead.py ./data && cd data && python3 outputRead.py $0.out $0 && rm outputRead.py"]
 #ENTRYPOINT ["/bin/bash", "-c", "cd data && python3 outputRead.py $0.out $0"]
 #CMD	["python3", "outputRead.py $0.out $0"]

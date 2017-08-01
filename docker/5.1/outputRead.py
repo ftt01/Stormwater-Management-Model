@@ -2,6 +2,7 @@
 
 import os
 import sys
+import shutil
 import struct
 import datetime
 
@@ -67,12 +68,14 @@ with open(outFile, "rb+") as openedFile:
     offset = offsetZero + offset
     #print(offset)  
 
-#create the directory tree 
-    os.mkdir('./out')
-    os.chdir('./out')
-    os.mkdir('./subcatchments')
-    os.mkdir('./nodes')
-    os.mkdir('./links')
+#create the directory tree
+    if os.path.exists(sys.argv[2]):
+        shutil.rmtree(sys.argv[2])
+    os.mkdir(sys.argv[2], 0o444)
+    os.chdir(sys.argv[2])
+    os.mkdir('./subcatchments', 0o444)
+    os.mkdir('./nodes', 0o444)
+    os.mkdir('./links', 0o444)
 
 #create the files with ID names
     subcatchmentsName = []

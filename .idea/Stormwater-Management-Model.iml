@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/toposort.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/node.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/qualrout.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/enums.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/inputrpt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/shape.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/datetime.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/keywords.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rain.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lid.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/keywords.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/controls.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/exfil.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/text.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/findroot.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/stats.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/link.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/headers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rdii.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/macros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/report.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/output.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/gage.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lidproc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/subcatch.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/iface.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/treatmnt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/climate.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/exfil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/hash.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/snow.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/roadway.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/massbal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/globals.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/funcs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/xsect.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/gwater.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/table.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/hotstart.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/routing.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/datetime.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/forcmain.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/runoff.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dwflow.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dynwave.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/transect.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/landuse.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/culvert.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/input.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/kinwave.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/odesolve.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/mathexpr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/infil.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/mathexpr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/consts.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/error.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/infil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/odesolve.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/hash.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/statsrpt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/error.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swmm5.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/findroot.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/inflow.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swmm5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/mempool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/flowrout.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/objects.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/surfqual.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/mempool.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
